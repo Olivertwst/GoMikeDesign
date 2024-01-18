@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -112,11 +112,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #ffffff!important;
 }
 
 .container {
@@ -781,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
