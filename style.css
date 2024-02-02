@@ -89,10 +89,10 @@ a:hover {
     right: 0;
 }
 
-/* .texture-paper::before {
-    background: url("img/texture-paper.webp");
+.texture-paper::before {
+    /* background: url("img/texture-paper.webp"); */
     background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -305,9 +305,10 @@ nav>li a {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 4rem;
+    width: auto;
 }
 
 .navbar-brand img[src$=svg] {
@@ -661,7 +662,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    /* color: #ffffff!important; */
+    color: #575757!important;
 }
 
 .container {
@@ -825,9 +826,9 @@ h4 {
     border-color: #364577 !important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.webp");
-}
+} */
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.webp");
@@ -835,6 +836,8 @@ h4 {
 
 .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.webp");
+    height: 45rem;
+    width: 100%;
 }
 
 .bg-atlanta-20made-20sign-20orange {
@@ -998,10 +1001,10 @@ h4 {
         box-shadow: none;
     }
 
-    .navbar-brand img {
+    /* .navbar-brand img {
         max-height: 40px;
         width: auto;
-    }
+    } */
 
     .nav-invert .navbar-header {
         float: none;
