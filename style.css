@@ -275,6 +275,14 @@ nav>li a {
     margin-top: 80px;
 }
 
+strong {
+    font-style: italic;
+}
+
+.voffset h3 {
+    color: #333333 !important;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -288,6 +296,7 @@ nav>li a {
 
 #bloc-2-services p {
     font-size: 11px;
+    color: #333333 !important;
 }
 
 .navbar {
@@ -364,6 +373,10 @@ nav>li a {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.col-sm-4 li a {
+    color: rgba(255, 255, 255, .7) !important;
 }
 
 @media (min-width: 768px) {
@@ -449,6 +462,10 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333 !important;
 }
 
 .mg-lg {
@@ -662,7 +679,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757 !important;
 }
 
 .container {
@@ -722,9 +739,7 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333 !important;
+    line-height: 1.4em;
 }
 
 .med-width-whitespace {
@@ -818,7 +833,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
+    color: #94360a !important;
 }
 
 .icon-dark-slate-blue {
@@ -826,22 +841,22 @@ h4 {
     border-color: #364577 !important;
 }
 
-/* .bg-dots-bg {
+.bg-dots-bg {
     background-image: url("img/dots-bg.webp");
-} */
+}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.webp");
+    background-image: url("img/atlanta-made-sign.webp");
     height: 45rem;
     width: 100%;
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.webp");
+    background-image: url("img/atlanta-made-sign-orange.webp");
 }
 
 @media (max-width: 1024px) {
@@ -896,11 +911,6 @@ h4 {
         position: relative;
     }
 
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -910,8 +920,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1000,11 +1008,6 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-
-    /* .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    } */
 
     .nav-invert .navbar-header {
         float: none;
